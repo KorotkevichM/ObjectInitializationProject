@@ -12,7 +12,7 @@ public class Student {
 }
 
     public String getInfo(){
-        return name + ": age" + age
+        return name + ": age " + age
                 + ", mark = " + mark
                 + ", is alive = " + (alive ? "yes" : "no");
 
