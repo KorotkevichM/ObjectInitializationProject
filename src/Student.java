@@ -18,6 +18,22 @@ public class Student {
         alive = al;
     }
 
+//    public Student(String n){
+//        name = n;
+//    }
+//
+//    public Student(double m){
+//        mark = m;
+//    }
+
+
+    public Student(Student student){
+        name = student.name;
+        age = student.age;
+        mark = student.mark;
+        alive = student.alive;
+    }
+
     public String getInfo(){
         return name + ": age " + age
                 + ", mark = " + mark
